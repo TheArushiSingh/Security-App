@@ -1,4 +1,5 @@
-package com.example.vishaldeepsingh.vsafe.Activity;
+package com.example.ArushiSingh.SecurityApp;
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -21,10 +22,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.vishaldeepsingh.vsafe.Fragment.HomeFragment;
-import com.example.vishaldeepsingh.vsafe.Fragment.InstructionFragment;
-import com.example.vishaldeepsingh.vsafe.Fragment.Notificationfragment;
-import com.example.vishaldeepsingh.vsafe.R;
+import com.example.ArushiSingh.SecurityApp.Fragment.HomeFragment;
+import com.example.ArushiSingh.SecurityApp.Fragment.InstructionFragment;
+import com.example.ArushiSingh.SecurityApp.Fragment.Notificationfragment;
+import com.example.ArushiSingh.SecurityApp.R;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     public static int navItemIndex = 0;
 
     // tags used to attach the fragments
-    private static final String TAG_HOME = "V Safe";
+    private static final String TAG_HOME = "Security App";
     private static final String TAG_NOTIFICATIONS = "notifications";
     private static final String TAG_SETTINGS = "settings";
     private static final String TAG_INSTRUCTION = "instructions";
